@@ -83,13 +83,3 @@ const scrollReveal = function () {
     }
   }
 }
-
-scrollReveal();
-
-addEventOnElem(window, "scroll", scrollReveal);
-
-if (document.readyState == "loading") {
-  document.addEventListener("DOMContentLoaded",ready);
-}else {
-  ready();
-}
