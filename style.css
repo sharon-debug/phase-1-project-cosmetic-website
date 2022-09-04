@@ -1,18 +1,16 @@
 :root {
 
-    /**
-     * colors
-     */
+    /*---colors---*/
   
     --hoockers-green_20: hsl(148, 20%, 38%, 0.2);
     --pale-spring-bud: hsl(60, 68%, 85%);
     --hoocker: purple hsl(290, 83%, 12%);
-    --spanish-gray: hsl(0, 0%, 61%);
+    --spanish-purple: hsl(293, 94%, 36%);
     --light-gray: hsl(0, 0%, 80%);
     --cultured-1: hsl(0, 0%, 97%);
     --cultured-2: hsl(60, 6%, 93%);
-    --gray-web: hsl(0, 0%, 49%);
-    --white_30: hsl(0, 0%, 100%, 0.3);
+    --gray-web: hsl(293, 82%, 13%);
+    --white_30: rgba(61, 4, 61, 0.3);
     --black_70: hsla(0, 0%, 0%, 0.7);
     --black_50: hsla(0, 0%, 0%, 0.5);
     --black_15: hsla(0, 0%, 0%, 0.15);
@@ -21,15 +19,11 @@
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
   
-    /**
-     * gradient color
-     */
+    /*----gradient color---*/
   
     --gradient: linear-gradient(to right, transparent 50%, var(--white_30) 100%);
   
-    /**
-     * typography
-     */
+    /*----typography-----*/
   
     --ff-urbanist: 'Urbanist', sans-serif;
   
@@ -49,28 +43,20 @@
     --fw-700: 700;
     --fw-800: 800;
   
-    /**
-     * spacing
-     */
+    /*----spacing--- */
   
     --section-padding: 35px;
   
-    /**
-     * shadow
-     */
+    /*--- shadow----*/
   
     --shadow-1: 0 8px 16px var(--black_15);
     --shadow-2: 0 4px 10px var(--black_5);
   
-    /**
-     * radius
-     */
+    /*----radius----*/
   
     --radius-3: 3px;
   
-    /**
-     * transition
-     */
+    /*-----transition----*/
   
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease;
@@ -84,9 +70,7 @@
   
   
   
-  /*-----------------------------------*\
-    #RESET
-  \*-----------------------------------*/
+  /*--------------------RESET---------------*/
   
   *,
   *::before,
@@ -149,19 +133,17 @@
     height: 5px;
   }
   
-  ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
+  ::-webkit-scrollbar-track { background-color: hsl(308, 89%, 18%); }
   
-  ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
+  ::-webkit-scrollbar-thumb { background-color: hsl(300, 74%, 5%); }
   
-  ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
-  
-  
+  ::-webkit-scrollbar-thumb:hover { background-color: hsl(295, 76%, 10%); }
   
   
   
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
+  
+  
+  /*------------------REUSED STYLE-----------------*/
   
   .container { padding-inline: 15px; }
   
@@ -420,9 +402,7 @@
   
   
   
-  /*-----------------------------------*\
-    #MOBILE NAVBAR
-  \*-----------------------------------*/
+  /*----------------MOBILE NAVBAR-------------------*/
   
   .sidebar { z-index: 5; }
   
@@ -494,9 +474,7 @@
   
   
   
-  /*-----------------------------------*\
-    #HERO
-  \*-----------------------------------*/
+  /*-----------------HERO------------------*/
   
   .hero { padding-block-start: 0; }
   
@@ -524,18 +502,16 @@
   
   
   
-  /*-----------------------------------*\
-    #COLLECTION
-  \*-----------------------------------*/
+  /*----------------Products-------------------*/
   
-  .collection { padding-block-start: 0; }
+  .Products { padding-block-start: 0; }
   
-  .collection-list {
+  .Products-list {
     display: grid;
     gap: 15px;
   }
   
-  .collection-card {
+  .Products-card {
     background-color: var(--light-gray);
     min-height: 400px;
     padding: 40px;
@@ -544,9 +520,9 @@
     flex-direction: column;
   }
   
-  .collection-card .card-title { margin-block-end: 12px; }
+  .Products-card .card-title { margin-block-end: 12px; }
   
-  .collection-card .card-text {
+  .Products-card .card-text {
     color: var(--black);
     font-size: var(--fs-6);
     font-weight: var(--fw-600);
@@ -556,10 +532,8 @@
   
   
   
-  
-  /*-----------------------------------*\
-    #SHOP
-  \*-----------------------------------*/
+
+  /*-------------SHOP----------------------*/
   
   .shop .title-wrapper {
     display: flex;
@@ -663,45 +637,10 @@
   
   
   
-  /*-----------------------------------*\
-    #BANNER
-  \*-----------------------------------*/
-  
-  .banner-list {
-    display: grid;
-    gap: 30px;
-  }
-  
-  .banner-card {
-    min-height: 420px;
-    padding: 30px;
-  }
-  
-  .banner-card .card-subtitle {
-    color: var(--black);
-    font-size: var(--fs-6);
-    font-weight: var(--fw-600);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .banner-card :is(.card-subtitle, .card-title) { text-shadow: 0 0 2px var(--cultured-2); }
-  
-  .banner-card-1 .card-title { margin-block: 10px 30px; }
-  
-  .banner-card .card-text {
-    color: var(--black);
-    font-size: var(--fs-7);
-    margin-block: 10px 25px;
-  }
   
   
   
-  
-  
-  /*-----------------------------------*\
-    #FEATURE
-  \*-----------------------------------*/
+  /*----------------FEATURE-------------------*/
   
   .feature { text-align: center; }
   
@@ -720,9 +659,8 @@
   
   
   
-  /*-----------------------------------*\
-    #OFFER
-  \*-----------------------------------*/
+  /*----------------OFFER-------------------*/
+  
   
   .offer-banner {
     display: grid;
@@ -752,34 +690,15 @@
   
   .offer .section-text { font-size: var(--fs-6); }
   
-  .offer .countdown {
-    color: var(--hoockers-green);
-    font-size: var(--fs-2);
-    line-height: 1;
-    display: flex;
-    margin-block: 20px 40px;
-  }
-  
-  .offer .time:not(:last-child)::after {
-    content: ":";
-    color: var(--gray-web);
-    font-size: 3rem;
-    font-weight: var(--fw-500);
-    margin-inline: 10px;
-  }
-  
-  .offer .time {
-    display: flex;
-    align-items: center;
-  }
+
   
   
   
   
   
-  /*-----------------------------------*\
-    #BLOG
-  \*-----------------------------------*/
+  
+  /*------------BLOG-----------------------*/
+   
   
   .blog { padding-block-end: calc(var(--section-padding) * 2); }
   
@@ -806,9 +725,8 @@
   
   
   
-  /*-----------------------------------*\
-    #FOOTER
-  \*-----------------------------------*/
+  /*----------------FOOTER-------------------*/
+  
   
   .footer .logo { display: none; }
   
@@ -892,39 +810,9 @@
     bottom: 0;
   }
   
-  .copyright { font-size: var(--fs-7); }
   
-  .footer-bottom .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 15px;
-    margin-block-end: 20px;
-  }
+  /*--------------BACK TO TOP---------------------*/
   
-  .social-list {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .social-link {
-    color: var(--black);
-    font-size: 18px;
-    transition: var(--transition-1);
-  }
-  
-  .social-link:is(:hover, :focus) { color: var(--hoockers-green); }
-  
-  .footer-bottom > img { max-width: max-content; }
-  
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #BACK TO TOP
-  \*-----------------------------------*/
   
   .back-top-btn {
     position: fixed;
@@ -943,7 +831,7 @@
   }
   
   .back-top-btn:is(:hover, :focus) {
-    background-color: var(--hoockers-green);
+    background-color: var(--hoockers-purple);
     color: var(--white);
   }
   
@@ -953,23 +841,9 @@
     transform: translateY(-10px);
   }
   
+
   
-  
-  
-  
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
-  
-  /**
-   * responsive for larger than 575px screen
-   */
-  
-  @media (min-width: 575px) {
-  
-    /**
-     * REUSED STYLE
-     */
+    /*-------REUSED STYLE----*/
   
     .container {
       max-width: 540px;
@@ -985,9 +859,7 @@
   
   
   
-    /**
-     * HEADER
-     */
+    /*--------- HEADER--------*/
   
     .alert { padding-block: 8px; }
   
@@ -995,53 +867,25 @@
   
   
   
-    /**
-     * HERO
-     */
+    /*---------------HERO-----------*/
   
     .hero-card { padding-inline: 70px; }
   
-    .hero-text { max-width: 30ch; }
-  
-  
-  
-    /**
-     * BANNER
-     */
-  
-    .banner-card .card-text { max-width: 30ch; }
-  
-  
-  
-    /**
-     * OFFER
-     */
-  
-    .offer .countdown { --fs-2: 4.8rem; }
-  
-    .offer .countdown .time:not(:last-child)::after { margin-inline: 20px; }
-  
-  }
+    .hero-text { max-width: 30ch;}
   
   
   
   
   
-  /**
-   * responsive for larger than 768px screen
-   */
+  /*---------responsive for larger than 768px screen-----*/
   
   @media (min-width: 768px) {
   
-    /**
-     * CUSTOM PROPERTY
-     */
+    /*----CUSTOM PROPERTY----  */
   
     :root {
   
-      /**
-       * typography
-       */
+      /*-----typography----*/
   
       --fs-1: 5.6rem;
   
@@ -1049,9 +893,7 @@
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    /*----REUSED STYLE----*/
   
     .container { max-width: 730px; }
   
@@ -1059,35 +901,19 @@
   
   
   
-    /**
-     * COLLECTION
-     */
+    /*---------Products------*/
   
-    .collection-card { min-height: 450px; }
-  
+    .products-card { min-height: 450px; }
+    
   
   
-    /**
-     * BANNER
-     */
-  
-    .banner-list { grid-template-columns: 1fr 0.7fr; }
-  
-    .banner-card { padding: 50px; }
-  
-  
-  
-    /**
-     * OFFER
-     */
+    /*----- OFFER---------*/
   
     .offer .section-text { max-width: 45ch; }
   
   
   
-    /**
-     * FOOTER
-     */
+    /*-----FOOTER------*/
   
     .footer-top { grid-template-columns: repeat(3, 1fr); }
   
@@ -1107,31 +933,13 @@
   
   
   
-  /**
-   * responsive for larger than 992px screen
-   */
+  /*-----responsive for larger than 992px screen----*/
   
-  @media (min-width: 992px) {
-  
-    /**
-     * CUSTOM PROPERTY
-     */
-  
-    :root {
-  
-      /**
-       * spacing
-       */
-  
-      --section-padding: 50px;
-  
-    }
+
   
   
   
-    /**
-     * REUSED STYLE
-     */
+    /*----REUSED STYLE--------*/
   
     .container { max-width: 960px; }
   
@@ -1141,28 +949,15 @@
   
   
   
-    /**
-     * COLLECTION
-     */
+    /*----- Products-------*/
   
-    .collection-list {
+    .products-list {
       grid-template-columns: repeat(3, 1fr);
       gap: 30px;
-    }
+    }  
   
   
-  
-    /**
-     * BANNER
-     */
-  
-    .banner-list { grid-template-columns: 1fr 0.5fr; }
-  
-  
-  
-    /**
-     * OFFER
-     */
+    /*------OFFER----------*/
   
     .offer .container {
       display: grid;
@@ -1171,42 +966,30 @@
       gap: 30px;
     }
   
-    .offer-banner { margin-block-end: 0; }
+   
   
   
   
-    /**
-     * FOOTER
-     */
+    /*-----------FOOTER---------*/
   
     .footer .logo { display: block; }
   
     .footer { padding-block: 100px 80px; }
   
     .footer-top {
-      grid-template-columns: 0.4fr 0.4fr 0.4fr 1fr;
-      margin-block-end: 120px;
+      grid-template-columns: 0.4fr 0.4fr 0.4fr 1fr;      margin-block-end: 120px;
     }
   
     .footer-list:last-child { grid-column: auto; }
   
     .footer .logo img { width: 190px; }
   
-  }
   
-  
-  
-  
-  
-  /**
-   * responsive for larger than 1200px screen
-   */
+
   
   @media (min-width: 1200px) {
   
-    /**
-     * REUSED STYLE
-     */
+    /*------REUSED STYLE----*/
   
     .container { max-width: 1300px; }
   
@@ -1214,9 +997,7 @@
   
   
   
-    /**
-     * HEADER
-     */
+    /*----HEADER----*/
   
     .header .input-wrapper,
     .header-action-btn:not(:first-child),
@@ -1354,27 +1135,14 @@
   
   
   
-    /**
-     * HERO
-     */
+    /*---HERO----*/
   
     .hero-card { padding: 120px 100px; }
   
     .hero-text { max-width: 40ch; }
   
   
-  
-    /**
-     * BANNER
-     */
-  
-    .banner-card-1 .card-title { max-width: 15ch; }
-  
-  
-  
-    /**
-     * FEATURE
-     */
+    /*-------FEATURE----*/
   
     .feature .section-title { margin-block-end: 60px; }
   
@@ -1387,9 +1155,7 @@
   
   
   
-    /**
-     * OFFER
-     */
+    /*---OFFER--*/
   
     .offer .container { gap: 120px; }
   
