@@ -1,7 +1,12 @@
-This project is about the cosmetic details.
+Therefore I’m planning if creating a cosmetic website app where people can order and get the product they want on time and at their place. The website  will entail makeup products,skincare products, and  fragrances products. This project is about the cosmetic details.
+
+
+
+
 it has makeup products , skincare, products and many more.
 fill free to go through.
 It is a well working website.
+
 
 Technologies
 
