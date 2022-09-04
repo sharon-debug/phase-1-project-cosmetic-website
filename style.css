@@ -119,8 +119,8 @@
   }
   
   body {
-    background-color: var(--white);
-    color: var(--gray-web);
+    background-color: var(----dark gray);
+    color: var(--pink-web);
     font-size: 1.6rem;
     font-weight: var(--fw-500);
     line-height: 1.6;
