@@ -22,7 +22,7 @@ JavaScript: Used to implement cart function.
 Installation Process
 
  In order to install this website in your computer or a phone, run this this 
- link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html
+ link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html?email_address=sharonche%40gmail.com#
 
  For more information about this website run this link to get all my github files
 , link is https://github.com/sharon-debug/phase-1-project-cosmetic-website
