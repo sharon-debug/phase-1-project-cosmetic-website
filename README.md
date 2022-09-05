@@ -17,10 +17,13 @@ HTML: Used to construct the page's structure and add content.
 
 CSS: Used to style the page and make it as appealing as possible.
 
-avaScript: Used to implement cart function.
+JavaScript: Used to implement cart function.
 
 Installation Process
- In order to install this website in your computer or a phone, run this this link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html
+
+ In order to install this website in your computer or a phone, 
+ 
+ run this this link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html
 
  For more information about this website run this link to get all my github files
 , link is https://github.com/sharon-debug/phase-1-project-cosmetic-website
