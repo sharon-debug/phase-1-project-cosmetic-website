@@ -11,9 +11,13 @@ It is a well working website.
 Technologies
 
 Let's write down the languages I used
-HTML
-CSS
-Javascript
+-HTML: Used to construct the page's structure and add content.
+
+-CSS: Used to style the page and make it as appealing as possible.
+
+-JavaScript: Used to implement cart function.
+
+-Markdown: Used to write this readme file.
 
 github and website links
 
