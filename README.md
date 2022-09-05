@@ -1,25 +1,27 @@
-Therefore I’m planning if creating a cosmetic website app where people can order and get the product they want on time and at their place. The website  will entail makeup products,skincare products, and  fragrances products. This project is about the cosmetic details.
+COSMETICS SHOP WEBSITE
 
+by Sharon Chepkemoi.
 
+Introduction
 
-
-it has makeup products , skincare, products and many more.
-fill free to go through.
-It is a well working website.
+This is an online shop which sells cosmetics products such as makeup products,skincare products and fragrances products. all the product are sell online and anyone who make's his or her order will be able to recieve they product with 3 days of working days.
+All Grace formulations adhere to strict purity standards and will never contain harsh or toxic ingredients
+The aim of creating this project is the save on time for all the client. It also save money since no one will be need to travel. it also reliable for all the client since they will be able to go through all the product slow by slow and by excatly what they want.
 
 
 Technologies
 
-Let's write down the languages I used
--HTML: Used to construct the page's structure and add content.
+Here are the technologies are used:
 
--CSS: Used to style the page and make it as appealing as possible.
+HTML: Used to construct the page's structure and add content.
 
--JavaScript: Used to implement cart function.
+CSS: Used to style the page and make it as appealing as possible.
 
--Markdown: Used to write this readme file.
+avaScript: Used to implement cart function.
 
-github and website links
+Installation Process
+ In order to install this website in your computer or a phone, run this this link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html
 
-if you want to run this project in your computer, run this this link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html
-The github link is https://github.com/sharon-debug/phase-1-project-cosmetic-website
+ For more information about this website run this link to get all my github files
+, link is https://github.com/sharon-debug/phase-1-project-cosmetic-website
+
