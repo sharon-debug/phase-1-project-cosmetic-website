@@ -1,4 +1,5 @@
 COSMETICS SHOP WEBSITE
+
 by Sharon Chepkemoi.
 
 
@@ -11,8 +12,11 @@ This is an online shop which sells cosmetics products such as makeup products,sk
 Technologies
 
 Here are the technologies are used: 
+
     •  HTML: Used to construct the page's structure and add content.
+
     • CSS: Used to style the page and make it as appealing as possible.
+
     • JavaScript: Used to implement arrow function.
 
 
@@ -20,4 +24,5 @@ Installation Process
 
 
 In order to install this website in your computer or a phone, run this this link file:///home/sharon/Desktop/phase-1-project-cosmetic-website/index.html?email_address=sharonche%40gmail.com#
+
 For more information about this website run this link to get all my github files , link is https://github.com/sharon-debug/phase-1-project-cosmetic-website
